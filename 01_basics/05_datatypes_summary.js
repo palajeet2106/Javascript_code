@@ -49,4 +49,36 @@ console.log(myObj);
  console.log(typeof  myObj );
  console.log(typeof bigNumber );
  console.log(typeof anotherId  );
+
+
+
+//  🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹Memory🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+
+// 2 types = Stack(primitive datatypes) , Heap(non primitive datatypes)
+
+// stack
+
+let myYouTubename = "Ajeetdotcom";
+let anotherName = myYouTubename;
+anotherName = "virajdotcom";
+console.log(myYouTubename);
+console.log(anotherName);
  
+// Haep
+
+let user = {
+    email:"ajeet@gmauil.com",
+
+    upi : "ajeet@ybl"
+}
+
+console.log(user);
+
+
+let usertwo = user;
+   usertwo.email = "aj@gmail.com";
+// console.log(usertwo);
+
+console.log(user.email);
+console.log(usertwo.email);
+
