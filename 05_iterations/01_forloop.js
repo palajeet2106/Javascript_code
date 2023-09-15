@@ -64,3 +64,10 @@ for (let index = 0; index < myArray.length; index++) {
                                         //      flash
                                         //      batman
                                         //      supeerman
+
+        
+for (let i = 1; i <=10; i++) {
+
+         const element = i; 
+         console.log(i*2);
+}
