@@ -4,6 +4,14 @@
 // [ "","",""]
 // [{},{},{}]
 
+// for (const iterator of object) {
+   
+// }
+
+// Note = yha pr object ka mtlb jis cheez k uper loop lagana hai
+
+
+
 const arr = [1,2,3,4,5];
 
 for (const num of arr) {
