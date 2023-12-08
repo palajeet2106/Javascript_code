@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="wordcount.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header d-flex bg-info justify-content-center gap-5">
+                   <div class="github"><a href="https://www.github.com/palajeet2106" class="text-decoration-none text-white "><h5>Github</h5></a></div>
+                   <div class="youtube"><a href="https://www.youtube.com/@codingoperation" class="text-decoration-none text-white"><h5>YouTube</h5></a></div>
+                    </div>
+                    <div class="card-body ">
+                        <textarea name="msg" id="msg" cols="30" rows="5" onkeyup="ccount()"></textarea>
+                        <p>Words : <span id="words"></span></p>
+                        <p>Characters : <span id="characters"></span></p>
+                        <p>Vowel Count : <span id="vc" onkeyup="vowel()"></span></p>
+                        
+                    </div>
+                    <div class="card-footer bg-primary text-white text-center"><h5>Words And Characters Count</h5></div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="wordcount.js"></script>
+</html>

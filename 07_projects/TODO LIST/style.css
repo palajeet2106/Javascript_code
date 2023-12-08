@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    width: 420px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+input{
+    width: 280px;
+    padding: 8px;
+    border:2px solid rgb(6,145,145);
+    border-radius: 2px;
+    font-family: sans-serif;
+}
+::placeholder{
+    font-weight: bold;
+    font-size: 16px;
+}
+button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(4,29,29);
+    color: #fff;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.result ul{
+    position: relative;
+    background-color: rgb(5,31,31);
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 2px;
+    font-family: sans-serif;
+}
+.result ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}

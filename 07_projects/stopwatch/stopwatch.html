@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body class="bg-dark text-white">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="card ">
+                    <div class="card-header bg-primary text-center">
+                        <h3>Stopwatch</h3>
+                    </div>
+                    <div class="card-body text-dark text-center">
+                            <div id="display">
+                            <span id="hr">00</span>
+                            <span >Hr</span>
+                            <span id="min">00</span>
+                            <span>Min</span>
+                            <span id="sec">00</span>
+                            <span >Sec</span>
+                            <span id="count">00</span>
+                            </div>
+                          
+                           <div class="btn mt-3">
+                            
+                            <button class="btn btn-success fw-bold" onclick="start()">Start</button>
+                            <button class="btn btn-primary fw-bold" onclick="stop()">Stop</button>
+                            <button class="btn btn-warning fw-bold" onclick="reset()">Reset</button>
+                            
+                           </div>
+                    </div>
+                    <div class="card-header"></div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+   
+    
+</body>
+<script src="js/script.js"></script>
+<script src="stopwatch.js"></script>
+</html>

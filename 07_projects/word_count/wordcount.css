@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: f;
+   
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+textarea{
+    border: 5px solid green;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px;
+}
